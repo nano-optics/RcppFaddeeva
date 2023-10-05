@@ -1,0 +1,20 @@
+templates:
+  params:
+    bootswatch: lumen
+
+reference:
+  - title: Faddeeva
+    desc:  Functions directly exposed from Faddeeva
+    contents:
+    - Faddeeva_w
+    - erfcx
+    - erf
+    - erfi
+    - erfc
+    - Dawson
+  - title: Voigt
+    desc:  Convenience lineshape functions defined at R level
+    contents:
+    - Voigt
+    - Gauss
+    - Lorentz

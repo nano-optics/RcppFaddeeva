@@ -1,0 +1,2 @@
+The RcppFaddeeva package as a whole is distributed under GPL >=2. The RcppFaddeeva package includes other open source software components, the original C code for the Faddeeva package, under MIT license, with Copyright (c) 2012 Massachusetts Institute of Technology.
+
