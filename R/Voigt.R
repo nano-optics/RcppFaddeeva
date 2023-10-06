@@ -41,7 +41,6 @@ Voigt <- function(x, x0, sigma, gamma, real = TRUE, ...){
 ##' @description Lorentzian distribution
 ##' @title Lorentz
 ##' @describeIn Voigt Lorentzian lineshape function
-##' @inheritParams Voigt 
 ##' @export
 ##' @family helper_function
 Lorentz <- function(x, x0, gamma){
@@ -51,7 +50,6 @@ Lorentz <- function(x, x0, gamma){
 ##' @description Gaussian distribution
 ##' @title Gauss 
 ##' @describeIn Voigt Gaussian lineshape function
-##' @inheritParams Voigt
 ##' @importFrom stats dnorm
 ##' @export
 ##' @family helper_function
