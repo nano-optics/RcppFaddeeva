@@ -27,7 +27,6 @@ std::vector< std::complex<double> > Faddeeva_w(const std::vector< std::complex<d
 }
 
 //' the scaled complementary error function
-//' @inheritParams Faddeeva_w
 //' @describeIn wrap compute \eqn{\mathrm{erfcx}(z) = \exp(z^2) \, \mathrm{erfc}(z)}{erfcx(z) = exp(z^2) erfc(z)}
 //' @family wrapper
 //' @examples
@@ -44,7 +43,6 @@ std::vector< std::complex<double> > erfcx(const std::vector< std::complex<double
 }
 
 //'  the error function of complex arguments
-//' @inheritParams Faddeeva_w
 //' @describeIn wrap compute \eqn{\mathrm{erf}(z)}{erf(z)}
 //' @family wrapper
 //' @examples
@@ -61,7 +59,6 @@ std::vector< std::complex<double> > erf(const std::vector< std::complex<double> 
 }
 
 //' the imaginary error function
-//' @inheritParams Faddeeva_w
 //' @describeIn wrap compute \eqn{\mathrm{erfi}(z) = -i \, \mathrm{erf}(iz)}{erfi(z) = -i erf(iz)}
 //' @family wrapper
 //' @examples
@@ -78,7 +75,6 @@ std::vector< std::complex<double> > erfi(const std::vector< std::complex<double>
 }
 
 //' the complementary error function
-//' @inheritParams Faddeeva_w
 //' @describeIn wrap compute \eqn{\mathrm{erfc}(z) = 1 - \mathrm{erf}(z)}{erfc(z) = 1 - erf(z)}
 //' @family wrapper
 //' @examples
@@ -95,7 +91,6 @@ std::vector< std::complex<double> > erfc(const std::vector< std::complex<double>
 }
 
 //' the Dawson function
-//' @inheritParams Faddeeva_w
 //' @describeIn wrap compute \eqn{\mathrm{Dawson}(z) = \sqrt{\pi}/2 \exp(-z^2) \, \mathrm{erfi}(z)}{Dawson(z) = sqrt(pi)/2 * exp(-z^2) * erfi(z)}
 //' @family wrapper
 //' @examples

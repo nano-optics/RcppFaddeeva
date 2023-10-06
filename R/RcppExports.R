@@ -16,7 +16,6 @@ Faddeeva_w <- function(z, relerr = 0) {
 }
 
 #' the scaled complementary error function
-#' @inheritParams Faddeeva_w
 #' @describeIn wrap compute \eqn{\mathrm{erfcx}(z) = \exp(z^2) \, \mathrm{erfc}(z)}{erfcx(z) = exp(z^2) erfc(z)}
 #' @family wrapper
 #' @examples
@@ -27,7 +26,6 @@ erfcx <- function(z, relerr = 0) {
 }
 
 #'  the error function of complex arguments
-#' @inheritParams Faddeeva_w
 #' @describeIn wrap compute \eqn{\mathrm{erf}(z)}{erf(z)}
 #' @family wrapper
 #' @examples
@@ -38,7 +36,6 @@ erf <- function(z, relerr = 0) {
 }
 
 #' the imaginary error function
-#' @inheritParams Faddeeva_w
 #' @describeIn wrap compute \eqn{\mathrm{erfi}(z) = -i \, \mathrm{erf}(iz)}{erfi(z) = -i erf(iz)}
 #' @family wrapper
 #' @examples
@@ -49,7 +46,6 @@ erfi <- function(z, relerr = 0) {
 }
 
 #' the complementary error function
-#' @inheritParams Faddeeva_w
 #' @describeIn wrap compute \eqn{\mathrm{erfc}(z) = 1 - \mathrm{erf}(z)}{erfc(z) = 1 - erf(z)}
 #' @family wrapper
 #' @examples
@@ -60,7 +56,6 @@ erfc <- function(z, relerr = 0) {
 }
 
 #' the Dawson function
-#' @inheritParams Faddeeva_w
 #' @describeIn wrap compute \eqn{\mathrm{Dawson}(z) = \sqrt{\pi}/2 \exp(-z^2) \, \mathrm{erfi}(z)}{Dawson(z) = sqrt(pi)/2 * exp(-z^2) * erfi(z)}
 #' @family wrapper
 #' @examples
