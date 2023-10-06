@@ -1,11 +1,11 @@
-
 [![](http://www.r-pkg.org/badges/version/RcppFaddeeva)](https://CRAN.R-project.org/package=RcppFaddeeva)
 [![](http://cranlogs.r-pkg.org/badges/grand-total/RcppFaddeeva)](https://CRAN.R-project.org/package=RcppFaddeeva)
 
 Wrapper to the [Faddeeva Package by Steven G.
 Johnson](http://ab-initio.mit.edu/wiki/index.php/Faddeeva_Package)
 
-## What is Faddeeva?
+What is Faddeeva?
+-----------------
 
 The [Faddeeva](http://ab-initio.mit.edu/wiki/index.php/Faddeeva_Package)
 package provides C++ code to compute the various error functions of
@@ -14,7 +14,7 @@ function, complementary error function, scaled complementary error
 function and imaginary error function as well as the Dawson function.
 With these, Voigt functions, Fresnel integrals and more can be computed.
 
-<img src="overview.png" width="100" style="display: block; margin: auto;" />
+<img src="man/figures/overview.png" width="100" style="display: block; margin: auto;" />
 
 ### Why this package?
 

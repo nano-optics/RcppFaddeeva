@@ -1,1 +1,5 @@
-^LICENSE\.md
+^README\.rmd
+^RcppFaddeeva\.Rproj
+^_pkgdown.yml
+^icon\.png
+

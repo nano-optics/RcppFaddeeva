@@ -22,7 +22,7 @@ imaginary error function as well as the Dawson function.  With these, Voigt
 functions, Fresnel integrals and more can be computed.
 
 ```{r, echo=FALSE, out.width=100, fig.align='center'}
-knitr::include_graphics("overview.png")
+knitr::include_graphics("man/figures/overview.png")
 ```
 
 ### Why this package?
