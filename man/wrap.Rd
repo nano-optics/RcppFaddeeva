@@ -34,17 +34,17 @@ the Faddeeva function
 }
 \section{Functions}{
 \itemize{
-\item \code{Faddeeva_w()}: compute w(z) = exp(-z^2) erfc(-iz)
+\item \code{Faddeeva_w()}: compute \eqn{w(z) = \exp(-z^2) \, \mathrm{erfc}(-iz)}{w(z) = exp(-z^2) erfc(-iz)}
 
-\item \code{erfcx()}: compute erfcx(z) = exp(z^2) erfc(z)
+\item \code{erfcx()}: compute \eqn{\mathrm{erfcx}(z) = \exp(z^2) \, \mathrm{erfc}(z)}{erfcx(z) = exp(z^2) erfc(z)}
 
-\item \code{erf()}: compute erf(z)
+\item \code{erf()}: compute \eqn{\mathrm{erf}(z)}{erf(z)}
 
-\item \code{erfi()}: compute erfi(z) = -i erf(iz)
+\item \code{erfi()}: compute \eqn{\mathrm{erfi}(z) = -i \, \mathrm{erf}(iz)}{erfi(z) = -i erf(iz)}
 
-\item \code{erfc()}: compute erfc(z) = 1 - erf(z)
+\item \code{erfc()}: compute \eqn{\mathrm{erfc}(z) = 1 - \mathrm{erf}(z)}{erfc(z) = 1 - erf(z)}
 
-\item \code{Dawson()}: compute Dawson(z) = sqrt(pi)/2  *  exp(-z^2) * erfi(z)
+\item \code{Dawson()}: compute \eqn{\mathrm{Dawson}(z) = \sqrt{\pi}/2 \exp(-z^2) \, \mathrm{erfi}(z)}{Dawson(z) = sqrt(pi)/2 * exp(-z^2) * erfi(z)}
 
 }}
 \examples{
