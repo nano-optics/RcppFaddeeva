@@ -6,7 +6,7 @@ Date: 2022-05-28
 Authors@R: c(person("Baptiste", "Auguié", email = "baptiste.auguie@vuw.ac.nz",role = c("aut", "cre")),
  person("Dirk", "Eddelbuettel", email = "edd@debian.org", role = "aut"),
  person(c("Steven", "G."), "Johnson", role = c("aut","cph"), comment="Author of Faddeeva"),
- person("Dennis", "Feehan", role = "ctb"))
+ person("Dennis", "Feehan", role = "ctb"), person("Ivan","Krylov", role="ctb"))
 Description: Access to a family of Gauss error functions for arbitrary
     complex arguments is provided via the 'Faddeeva' package by Steven G. Johnson
     (see <http://ab-initio.mit.edu/wiki/index.php/Faddeeva_Package> for more

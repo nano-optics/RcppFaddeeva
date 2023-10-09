@@ -1,5 +1,8 @@
-^README\.rmd
+^.*\.Rproj$
+^\.Rproj\.user$
+^README\.Rmd$
+^README\.rmd$
 ^RcppFaddeeva\.Rproj
 ^_pkgdown.yml
 ^icon\.png
-
+docs/

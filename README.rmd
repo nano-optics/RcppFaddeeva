@@ -1,15 +1,39 @@
 ---
-output:
-  github_document:
-    html_preview: false
+output: github_document
 ---
 
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# RcppFaddeeva
 
 [![](http://www.r-pkg.org/badges/version/RcppFaddeeva)](https://CRAN.R-project.org/package=RcppFaddeeva)
 [![](http://cranlogs.r-pkg.org/badges/grand-total/RcppFaddeeva)](https://CRAN.R-project.org/package=RcppFaddeeva)
 
 Wrapper to the
 [Faddeeva Package by Steven G. Johnson](http://ab-initio.mit.edu/wiki/index.php/Faddeeva_Package)
+
+## Installation
+
+``` r
+install.packages('RcppFaddeeva', repos = c('https://nano-optics.r-universe.dev', 'https://cloud.r-project.org'))
+```
+
+
+You can also install the development version of RcppFaddeeva from source via [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("remotes")
+remotes::install_github("nano-optics/RcppFaddeeva")
+```
 
 
 ## What is Faddeeva?
@@ -22,7 +46,7 @@ imaginary error function as well as the Dawson function.  With these, Voigt
 functions, Fresnel integrals and more can be computed.
 
 ```{r, echo=FALSE, out.width=100, fig.align='center'}
-knitr::include_graphics("man/figures/overview.png")
+knitr::include_graphics("overview.png")
 ```
 
 ### Why this package?

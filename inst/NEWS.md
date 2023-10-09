@@ -1,4 +1,9 @@
 
+# RcppFaddeeva 0.2.3 (09/10/2023)
+
+* Minor updates to reinstate on CRAN
+* Added isnan check in `Faddeeva.cc` (fix by Ivan Krylov)
+
 # RcppFaddeeva 0.2.2 (28/05/2022)
 
 * Update of maintainer's email address
