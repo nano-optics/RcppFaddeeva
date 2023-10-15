@@ -1012,6 +1012,7 @@ cmplx FADDEEVA(w)(cmplx z, double relerr)
    compared to fitting the whole [0,1] interval with a single polynomial. */
 static double erfcx_y100(double y100)
 {
+  if (isnan(y100)) return NaN;
   switch ((int) y100) {
 case 0: {
 double t = 2*y100 - 1;
