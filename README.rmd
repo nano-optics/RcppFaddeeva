@@ -15,8 +15,8 @@ knitr::opts_chunk$set(
 
 # RcppFaddeeva
 
-[![](http://www.r-pkg.org/badges/version/RcppFaddeeva)](https://CRAN.R-project.org/package=RcppFaddeeva)
-[![](http://cranlogs.r-pkg.org/badges/grand-total/RcppFaddeeva)](https://CRAN.R-project.org/package=RcppFaddeeva)
+[![](https://www.r-pkg.org/badges/version/RcppFaddeeva)](https://CRAN.R-project.org/package=RcppFaddeeva)
+[![](https://cranlogs.r-pkg.org/badges/grand-total/RcppFaddeeva)](https://CRAN.R-project.org/package=RcppFaddeeva)
 
 Wrapper to the
 [Faddeeva Package by Steven G. Johnson](http://ab-initio.mit.edu/wiki/index.php/Faddeeva_Package)
