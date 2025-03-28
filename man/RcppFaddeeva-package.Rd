@@ -2,6 +2,7 @@
 % Please edit documentation in R/RcppFaddeeva-package.r
 \docType{package}
 \name{RcppFaddeeva-package}
+\alias{RcppFaddeeva}
 \alias{RcppFaddeeva-package}
 \title{RcppFaddeeva}
 \description{
@@ -13,5 +14,29 @@ Access to a family of Gauss error functions for arbitrary complex arguments is p
 \references{
 The Faddeeva Package wiki page details the algorithms implemented by Steve G. Johnson, 
 \url{http://ab-initio.mit.edu/wiki/index.php/Faddeeva_Package}
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/nano-optics/RcppFaddeeva}
+  \item Report bugs at \url{https://github.com/nano-optics/RcppFaddeeva/issues}
+}
+
+}
+\author{
+\strong{Maintainer}: Baptiste Auguié \email{baptiste.auguie@vuw.ac.nz}
+
+Authors:
+\itemize{
+  \item Dirk Eddelbuettel \email{edd@debian.org}
+  \item Steven G. Johnson (Author of Faddeeva) [copyright holder]
+}
+
+Other contributors:
+\itemize{
+  \item Dennis Feehan [contributor]
+  \item Ivan Krylov [contributor]
+}
+
 }
 \keyword{packagelibrary}

@@ -2,7 +2,6 @@
 ##'
 ##' Access to a family of Gauss error functions for arbitrary complex arguments is provided via the 'Faddeeva' package by Steven G. Johnson (see <http://ab-initio.mit.edu/wiki/index.php/Faddeeva_Package> for more information).
 ##' @name RcppFaddeeva-package
-##' @docType package
 ##' @useDynLib RcppFaddeeva
 ##' @importFrom Rcpp evalCpp
 ##' @title RcppFaddeeva
@@ -11,4 +10,4 @@
 ##' \url{http://ab-initio.mit.edu/wiki/index.php/Faddeeva_Package}
 ##' @keywords packagelibrary
 ##' 
-NULL
+"_PACKAGE"
