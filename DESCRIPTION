@@ -25,4 +25,4 @@ URL: https://github.com/nano-optics/RcppFaddeeva
 BugReports: https://github.com/nano-optics/RcppFaddeeva/issues
 LinkingTo: Rcpp
 NeedsCompilation: yes
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.2
